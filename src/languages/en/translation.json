@@ -1,0 +1,58 @@
+{
+  "weather_forcast_for": "Սենդինգ ա մեսսագե",
+  "navbar": {
+    "links": {
+      "about": "About Us",
+      "import": "Import",
+      "export": "Export",
+      "partners": "Partners",
+      "production": "Production",
+      "contact": "Contact Us"
+    }
+  },
+  "hero": {
+    "title": "Export and Import of Fruits, Vegetables & </br> Dry Fruits",
+    "paragraph": "Global Quality in Fresh Produce Imports & Exports",
+    "learn": "Learn More",
+    "icons": {
+      "fruit": "Fresh Fruits",
+      "vegetable": "Fresh Vegetables",
+      "dryfruit": "Fresh Dry Fruits"
+    }
+  },
+  "partners": {
+    "title": "Partners",
+    "paragraph": "<span class='font-[600] text-primary'>Armfruit</span> cooperates with more than <span class='font-[600]'>51800</span> supermarkets throughout the Russian Federation. It also has partners from Iran, Georgia, Greece, Egypt, Ukraine, Belarus and the Arab Emirates. <span class='font-[600] text-primary'>Armfruit</span> always welcomes proposals for cooperation",
+    "button": "Contact"
+  },
+  "about": {
+    "1": {
+      "title": "About Us",
+      "paragraph": "Armfuit began its history in 2014. From manufacturing to supplying local markets, hotels throughout Armenia and supermarkets, the company quickly grew to become one of the most successful exporters and importers of fresh fruits and vegetables in Armenia"
+    },
+    "2": {
+      "title": "Countries",
+      "paragraph": "The company cooperates with many companies in different countries of the world"
+    },
+    "3": {
+      "title": "High Quality",
+      "paragraph": "Armfruit offers high-quality fruits and vegetables, each of which undergoes strict quality selection to provide you with the best service. Trust the experience of our organization, making the right choice for the benefit of your business"
+    },
+    "coutries": {
+      "ru": "Russian Federation",
+      "by": "Republic of Belarus",
+      "ae": "United Arab Emirates",
+      "ua": "Republic of Ukraine",
+      "ge": "Republic of Georgia",
+      "gr": "Republic of Greece",
+      "eg": "Republic of Egypt",
+      "ir": "Islamic Republic of Iran"
+    }
+  },
+  "footer": {
+    "address": "c. Yerevan, Սևանի 116/1",
+    "right": "© 2024, © Armfruit LLC |, All rights reserved",
+    "design": "Designed by ",
+    "me": "Արման Մանուկյան"
+  }
+}
