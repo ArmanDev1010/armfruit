@@ -49,6 +49,10 @@
       "ir": "Islamic Republic of Iran"
     }
   },
+  "export_import": {
+    "import": "Import",
+    "export": "Export"
+  },
   "footer": {
     "address": "c. Yerevan, Սևանի 116/1",
     "right": "© 2024, © Armfruit LLC |, All rights reserved",

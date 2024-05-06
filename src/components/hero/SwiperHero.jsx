@@ -19,18 +19,11 @@ const SwiperHero = () => {
       modules={[Autoplay]}
       className="SwiperImages relative w-full h-full btablet:rounded-tl-[50vw]"
     >
-      <SwiperSlide>
-        <SwiperImg number="two" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <SwiperImg number="three" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <SwiperImg number="one" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <SwiperImg number="four" />
-      </SwiperSlide>
+      {["1", "2", "3", 4].map((text, key) => (
+        <SwiperSlide key={key}>
+          <SwiperImg number={text} />
+        </SwiperSlide>
+      ))}
     </Swiper>
   );
 };

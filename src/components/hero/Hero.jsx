@@ -25,15 +25,15 @@ const Hero = () => {
 
   return (
     <div
-      className="bg-transparent text-[#222] h-[80%] font-medium relative flex flex-col gap-10  max-big:h-[83%] max-tablet:h-auto max-small:gap-8"
+      className="bg-transparent text-[#222] h-[80%] font-medium relative flex flex-col gap-10 max-tablet:h-auto max-small:gap-8"
       id="hero"
     >
       <div
-        className="w-full h-full max-bigg:relative bigg:max-w-[1680px] bigg:!mx-auto flex gap-[3rem] items-center max-btablet:gap-[2rem] max-btablet:items-start 
+        className="w-full h-full max-bigg:relative bigg:max-w-[1680px] bigg:!mx-auto flex gap-[3rem] items-center max-btablet:items-start 
       max-btablet:flex-col max-btablet:pb-[0rem] overflow-hidden max-small:gap-[1rem]"
       >
         <div
-          className="relative z-[6] bigg:!pl-0 items-end w-[60%] h-fit pl-[5%] max-big:w-[60%] 
+          className="relative z-[7] bigg:!pl-0 items-end w-[60%] h-fit pl-[5%] max-big:w-[60%] 
         max-btablet:w-full max-btablet:text-left max-btablet:!px-[5%] max-btablet:pt-[2rem]"
         >
           <div className="max-w-[900px] flex flex-col max-btablet:py-[2rem] max-btablet:!py-[1rem]">
@@ -45,7 +45,7 @@ const Hero = () => {
                 x: { duration: 0.5, delay: 0.1 },
                 opacity: { duration: 0.6, delay: 0.2 },
               }}
-              className="clipText bigg:text-7xl bigg:leading-[1.3] text-[max(3vw,4vw)] tracking-[-0rem] font-[600] text-lightb leading-[1.4] max-w-[900px] mb-6 
+              className="clipText bigg:text-7xl bigg:leading-[1.5] text-[max(3vw,4vw)] tracking-[-0rem] font-[600] text-lightb leading-[1.4] max-w-[900px] mb-4 
           max-desktop:leading-[1.4] max-desktop:mb-6 max-medium:text-[max(3vw,4.5vw)] 
           max-btablet:text-[max(3vw,6vw)] max-phone:text-[max(3vw,7.5vw)] max-small:mb-4 max-small:leading-[1.5]"
               dangerouslySetInnerHTML={{

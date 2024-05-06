@@ -29,7 +29,7 @@ const Menu = () => {
 
   return (
     <div
-      className="glassy_effect fixed z-[0] opacity-0 h-[100vh] w-full top-0 right-0 transition-all ease-in-out duration-500"
+      className="glassy_effect fixed z-[-1] opacity-0 h-[100vh] w-full top-0 right-0 transition-all ease-in-out duration-500"
       style={
         is_MenuActive
           ? { right: "0", opacity: "1", zIndex: "9999999999999999" }

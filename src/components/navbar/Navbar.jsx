@@ -31,13 +31,16 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="relative z-[99999999] w-full h-[20%] pt-6 max-big:h-[17%] max-small:pt-8" id="navbar">
+      <div
+        className="relative z-[99999999] w-full h-[20%] pt-6 max-big:h-[17%] max-small:pt-8"
+        id="navbar"
+      >
         <div className="px-[5%]">
           <div className="relative max-w-[1680px] w-full !mx-auto flex items-center big:flex-col max-bmedium:justify-between gap-10">
             <img
               src="/src/assets/logo.png"
               alt="logo"
-              className="h-full cursor-pointer w-[250px] h-auto max-big:w-[230px]"
+              className="h-full cursor-pointer w-[250px] h-auto max-big:w-[210px]"
             />
             <div className="flex justify-between items-center w-full max-bmedium:hidden">
               <a
@@ -111,12 +114,15 @@ const Navbar = () => {
         </div>
       </div>
       {scroll ? (
-        <div className="sticky bg-white h-[95px] !px-[5%] flex justify-between items-center" id="scroll">
+        <div
+          className="sticky bg-white h-[95px] !px-[5%] flex justify-between items-center"
+          id="scroll"
+        >
           <div className="flex items-center gap-8">
             <img
               src="/src/assets/scrollLogo.png"
               alt="logo"
-              className="h-full cursor-pointer w-[210px] h-full max-bmedium:w-[200px]"
+              className="h-full cursor-pointer w-[200px] h-full max-bmedium:w-[200px]"
             />
             <ul className="max-bmedium:hidden h-full flex items-center gap-8 text-[18px] font-[500]">
               {[

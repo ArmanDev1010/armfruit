@@ -81,7 +81,13 @@ body {
   right: 0%;
 }
 
-.swiper-container .swiper-wrapper {
+.myMainSwiperTemplate .swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+}
+
+.swiper-container .swiper-wrapper, .swiperExportImport .swiper-wrapper {
   -webkit-transition-timing-function: linear !important;
   -o-transition-timing-function: linear !important;
   transition-timing-function: linear !important;
@@ -148,6 +154,20 @@ body {
   animation-timing-function: ease;
   box-shadow: 0 10px 20px rgba(162, 102, 234, 0.1);
 }
+
+.rotateArrow {
+  transform: rotateZ(180deg);
+  transition: transform 0.4s ease;
+}
+
+.rotateBack {
+  transform: rotateZ(0deg);
+  transition: transform 0.4s ease;
+}
+
+/* .sliders:not(:last-child) {
+  border-right: 2px solid black;
+} */
 
 @keyframes fadeInDown {
   0% {

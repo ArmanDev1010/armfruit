@@ -8,6 +8,7 @@ import AboutScroll from "../components/about/AboutScroll.jsx";
 import { MyContext } from "../context/MyContext.js";
 import Menu from "../components/navbar/Menu.jsx";
 import Footer from "../components/footer/Footer.jsx";
+import ExportImport from "../components/export&import/ExportImport.jsx";
 
 const Home = () => {
   const { targetId, is_Click, setIs_Click } = useContext(MyContext);
@@ -30,14 +31,16 @@ const Home = () => {
   }, [targetId && is_Click]);
 
   return (
-    <div className="">
-      <div className="relative z-[9999999] top desktop:h-screen" id="hero_full">
+    <div className="relative">
+      <div className="bdesktop:h-screen relative z-[9999999]" id="hero_full">
         <Navbar />
         <Hero />
       </div>
       <Menu />
       <Partners />
       <AboutScroll />
+      <ExportImport which="import" />
+      <ExportImport which="export" />
       <Footer />
     </div>
   );
