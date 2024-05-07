@@ -102,7 +102,7 @@ const SwiperPartners = () => {
           ].map((text, key) => (
             <SwiperSlide key={key}>
               <img
-                src={`/src/assets/partners/${text}.png`}
+                src={`/assets/partners/${text}.png`}
                 alt={text}
                 className="b min-w-[150px]"
               />

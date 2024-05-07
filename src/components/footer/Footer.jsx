@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="py-[42px] border-y-[#f3f3f3] border-y-2 flex justify-between max-tablet:flex-col max-tablet:gap-[2rem]">
             <div className="h-full w-[60%] max-tablet:w-full">
               <img
-                src="/src/assets/logo.png"
+                src="/assets/logo.png"
                 alt="logo"
                 onClick={() => linkClick("hero_full")}
                 className="w-[250px] mb-12 cursor-pointer"

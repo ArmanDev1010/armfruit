@@ -38,6 +38,11 @@ const Menu = () => {
     >
       <div className="h-[100vh] w-full text-white pt-20 py-16 overflow-y-auto max-small:pb-12">
         <div className="flex flex-col justify-between items-center w-full h-full px-[5%]">
+          <img
+            src="/assets/scrollLogo.png"
+            alt="logo"
+            className="cursor-pointer w-[200px] h-auto max-bmedium:w-[200px]"
+          />
           <ul className="flex flex-col !text-center justify-center gap-12 text-2xl max-smaller:gap-8 max-tablet:text-xl">
             {["about", "import", "export", "partners", "production"].map(
               (text, key) => (

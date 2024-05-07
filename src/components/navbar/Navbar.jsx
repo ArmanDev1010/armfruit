@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="px-[5%]">
           <div className="relative max-w-[1680px] w-full !mx-auto flex items-center big:flex-col max-bmedium:justify-between gap-10">
             <img
-              src="/logo.png"
+              src="/assets/logo.png"
               alt="logo"
               className="h-full cursor-pointer w-[250px] h-auto max-big:w-[210px]"
             />
@@ -120,7 +120,7 @@ const Navbar = () => {
         >
           <div className="flex items-center gap-8">
             <img
-              src="/src/assets/scrollLogo.png"
+              src="/assets/scrollLogo.png"
               alt="logo"
               className="h-full cursor-pointer w-[200px] h-full max-bmedium:w-[200px]"
             />

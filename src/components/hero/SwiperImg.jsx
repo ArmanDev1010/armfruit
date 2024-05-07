@@ -5,7 +5,7 @@ const SwiperImg = ({ number }) => {
     <div
       className="w-full h-full bg-center bg-no-repeat bg-cover"
       style={{
-        backgroundImage: `url(/src/assets/carousel/${number}.jpg)`,
+        backgroundImage: `url(/assets/carousel/${number}.jpg)`,
       }}
     ></div>
   );

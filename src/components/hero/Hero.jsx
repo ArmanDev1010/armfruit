@@ -29,7 +29,7 @@ const Hero = () => {
       id="hero"
     >
       <div
-        className="w-full h-full max-bigg:relative bigg:max-w-[1680px] bigg:!mx-auto flex gap-[3rem] items-center max-btablet:items-start 
+        className="w-full h-full max-bigg:relative bigg:max-w-[1680px] bigg:!mx-auto flex gap-[1rem] items-center max-btablet:items-start 
       max-btablet:flex-col max-btablet:pb-[0rem] overflow-hidden max-small:gap-[1rem]"
       >
         <div

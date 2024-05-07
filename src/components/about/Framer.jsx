@@ -68,7 +68,7 @@ const Framer = ({ timeline, circle, circle1, num }) => {
         <div
           className="bg-no-repeat bg-cover bg-center h-full w-full"
           style={{
-            backgroundImage: `url(${`/src/assets/about/${num}.jpg`})`,
+            backgroundImage: `url(${`/assets/about/${num}.jpg`})`,
           }}
         />
       </div>
@@ -97,7 +97,7 @@ const Framer = ({ timeline, circle, circle1, num }) => {
         <div
           className="desktop:hidden bg-no-repeat bg-cover bg-center h-[300px] w-full mb-6 max-tablet:hidden"
           style={{
-            backgroundImage: `url(${`/src/assets/about/${num}.jpg`})`,
+            backgroundImage: `url(${`/assets/about/${num}.jpg`})`,
           }}
         />
         <div className="text-[22px] max-desktop:text-lg max-tablet:text-[18px] max-smal:text-[17px]">
