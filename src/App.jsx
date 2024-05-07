@@ -66,7 +66,7 @@ const App = () => {
         }}
       >
         <Routes>
-          <Route path="/armfruit/" element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </MyContext.Provider>
     </div>

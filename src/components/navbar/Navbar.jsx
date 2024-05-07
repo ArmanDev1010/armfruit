@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="px-[5%]">
           <div className="relative max-w-[1680px] w-full !mx-auto flex items-center big:flex-col max-bmedium:justify-between gap-10">
             <img
-              src="./assets/logo.png"
+              src="/src/assets/logo.png"
               alt="logo"
               className="h-full cursor-pointer w-[250px] h-auto max-big:w-[210px]"
             />
