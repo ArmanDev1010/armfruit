@@ -32,7 +32,7 @@ const SwiperExportImport = ({ reverse, which }) => {
         <SwiperSlide key={key}>
           <div
             className="bg-cover bg-no-repeat bg-center w-full h-full rounded-[30px] border-[2px] border-primary"
-            style={{ backgroundImage: `url(/src/assets/${which}/${text}.jpg)` }}
+            style={{ backgroundImage: `url(/assets/${which}/${text}.jpg)` }}
           ></div>
         </SwiperSlide>
       ))}
