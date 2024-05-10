@@ -37,11 +37,11 @@ const Menu = () => {
       }
     >
       <div className="h-[100vh] w-full text-white pt-20 py-16 overflow-y-auto max-small:pb-12">
-        <div className="flex flex-col justify-between items-center w-full h-full px-[5%]">
+        <div className="flex flex-col justify-between items-center w-full h-full px-[5%] max-small:justify-start max-small:gap-[4rem]">
           <img
             src="/assets/logo.png"
             alt="logo"
-            className="cursor-pointer w-[250px] h-auto max-small:w-[200px]"
+            className="cursor-pointer w-[250px] h-auto max-small:w-[220px]"
           />
           <ul className="flex flex-col !text-center justify-center gap-12 text-2xl max-smaller:gap-8 max-tablet:text-xl max-small:text-lg">
             {[
@@ -66,7 +66,7 @@ const Menu = () => {
           </ul>
           <a
             href="tel:+37410444401"
-            className="max-small:hidden flex items-center gap-4 text-2xl max-tablet:text-xl max-smaller:pt-12"
+            className="max-smal:hidden flex items-center gap-4 text-2xl max-tablet:text-xl max-smaller:pt-12"
           >
             <svg
               className={`w-[1.5rem] h-[1.5rem] relative fill-thirdly transition-fill ease-in-out duration-200 hover:fill-schole_primary`}
