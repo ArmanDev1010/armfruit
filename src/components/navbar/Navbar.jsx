@@ -42,7 +42,7 @@ const Navbar = () => {
           <img
             src="/assets/logo.png"
             alt="logo"
-            className="w-[300px] h-auto max-bdesktop:w-[270px] max-tablet:w-[250px]"
+            className="w-[300px] h-auto max-bdesktop:w-[270px] max-tablet:w-[250px] max-small:w-[200px]"
           />
           <ul className="flex items-start gap-12 text-xl font-[500] max-big:text-lg max-big:gap-8 max-desktop:hidden">
             {[

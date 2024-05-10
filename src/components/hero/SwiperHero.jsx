@@ -26,7 +26,7 @@ const SwiperHero = () => {
         (text, key) => (
           <SwiperSlide key={key}>
             <div
-              className="w-full h-[400px] max-medium:h-[320px] max-tablet: bg-center bg-no-repeat bg-cover rounded-[30px] border-primary border-2"
+              className="w-full h-[400px] max-medium:h-[320px] max-small:h-[280px] bg-center bg-no-repeat bg-cover rounded-[30px] border-primary border-2"
               style={{
                 backgroundImage: `url(/assets/carousel/home/${text}.jpg)`,
               }}

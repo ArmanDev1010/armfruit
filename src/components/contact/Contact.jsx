@@ -35,7 +35,7 @@ const Contact = () => {
               </div>
             </div>
             <div
-              className="bg-white w-[600px] px-[30px] py-[25px] rounded-[20px] max-big:w-[550px] max-desktop:w-full"
+              className="bg-white w-[600px] px-[30px] py-[25px] rounded-[20px] max-big:w-[550px] max-desktop:w-full max-stablet:px-[20px]"
               style={{
                 boxShadow: "rgba(17, 12, 46, 0.15) 0px 18px 100px 0px",
               }}
