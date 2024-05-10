@@ -39,23 +39,28 @@ const Menu = () => {
       <div className="h-[100vh] w-full text-white pt-20 py-16 overflow-y-auto max-small:pb-12">
         <div className="flex flex-col justify-between items-center w-full h-full px-[5%]">
           <img
-            src="/assets/scrollLogo.png"
+            src="/assets/logo.png"
             alt="logo"
-            className="cursor-pointer w-[200px] h-auto max-bmedium:w-[200px]"
+            className="cursor-pointer w-[250px] h-auto"
           />
           <ul className="flex flex-col !text-center justify-center gap-12 text-2xl max-smaller:gap-8 max-tablet:text-xl">
-            {["about", "import", "export", "partners", "production"].map(
-              (text, key) => (
-                <li
-                  key={key}
-                  onClick={() => linkClick(text)}
-                  className={`${text} text-center transition-opacity ease-in-out duration-200 hover:opacity-75 cursor-pointer font-semibold`}
-                >
-                  {t(`navbar.links.${text}`)}
-                </li>
-              )
-            )}
-            <li className="text-center transition-opacity ease-in-out duration-200 hover:opacity-75 cursor-pointer font-semibold">
+            {[
+              "about",
+              "partners",
+              "export",
+              "import",
+              "production",
+              "contact",
+            ].map((text, key) => (
+              <li
+                key={key}
+                onClick={() => linkClick(text)}
+                className={`${text} text-center transition-opacity ease-in-out duration-200 hover:opacity-75 cursor-pointer font-semibold`}
+              >
+                {t(`navbar.links.${text}`)}
+              </li>
+            ))}
+            <li className="phone:hidden text-center transition-opacity ease-in-out duration-200 hover:opacity-75 cursor-pointer font-semibold">
               <LanguageSwitcher />
             </li>
           </ul>

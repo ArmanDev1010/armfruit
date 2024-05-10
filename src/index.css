@@ -46,11 +46,6 @@ body {
   box-sizing: border-box;
 }
 
-/* .top {
-  background: rgb(152,197,15);
-  background: linear-gradient(320deg, rgba(152,197,15,1) 0%, rgba(255,255,255,1) 45%);
-} */
-
 .clipText {
   -webkit-text-fill-color: transparent;
   background-image: radial-gradient(
@@ -68,26 +63,30 @@ body {
   -webkit-backdrop-filter: blur(5px);
 }
 
-.hero_fade {
-  z-index: 5;
-  height: 10vh;
-  width: 100%;
-  pointer-events: none;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), #ffffff 70%);
+.swiper_fade-gradient {
+  z-index: 2;
+  width: 4%;
+  height: 100%;
+  background-image: linear-gradient(270deg, #ffffff00, #ffff 100%);
   position: absolute;
-  top: auto;
-  bottom: 0%;
+  top: 0%;
+  bottom: auto;
   left: 0%;
+  right: auto;
+}
+
+.swiper_fade-gradient.left {
+  background-image: linear-gradient(to right, #ffffff00, #ffffff 70%);
+  top: 0%;
+  bottom: auto;
+  left: auto;
   right: 0%;
 }
 
+.swiper-container .swiper-wrapper,
+.swiperExportImport .swiper-wrapper,
+.swiperImages .swiper-wrapper,
 .myMainSwiperTemplate .swiper-wrapper {
-  -webkit-transition-timing-function: linear !important;
-  -o-transition-timing-function: linear !important;
-  transition-timing-function: linear !important;
-}
-
-.swiper-container .swiper-wrapper, .swiperExportImport .swiper-wrapper {
   -webkit-transition-timing-function: linear !important;
   -o-transition-timing-function: linear !important;
   transition-timing-function: linear !important;
@@ -165,10 +164,6 @@ body {
   transition: transform 0.4s ease;
 }
 
-/* .sliders:not(:last-child) {
-  border-right: 2px solid black;
-} */
-
 @keyframes fadeInDown {
   0% {
     transform: translateY(-20px);
@@ -178,33 +173,13 @@ body {
   }
 }
 
-@media screen and (max-width: 1600px) {
-  #navbar .partners {
-    display: none;
-  }
-  #navbar .contact,
-  #scroll .contact {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 1350px) {
   .dateClip {
     font-size: 42px;
   }
-  #navbar .production,
-  #scroll .production {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 1080px) {
-  #navbar .partners {
-    display: block;
-  }
-  #navbar .contact {
-    display: block;
-  }
 }
 
 @media screen and (max-width: 900px) {

@@ -19,7 +19,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="relative z-[1] w-full" id="contact">
+    <div className="relative z-[1] w-full">
       <div className="px-[5%]">
         <div className="relative max-w-[1680px] w-full !mx-auto">
           <div className="py-[42px] border-y-[#f3f3f3] border-y-2 flex justify-between max-tablet:flex-col max-tablet:gap-[2rem]">

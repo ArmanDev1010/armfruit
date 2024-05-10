@@ -105,7 +105,7 @@ const Framer = ({ timeline, circle, circle1, num }) => {
         </div>
         {num == "2" ? (
           <ul className="mt-[2rem] grid grid-cols-[1fr] items-center gap-y-[1.5rem]">
-            {["ru", "by", "ae", "ua", "ge", "gr", "eg", "ir"].map(
+            {["ru", "ae", "by", "ua", "ge", "gr", "eg", "ir"].map(
               (text, key) => (
                 <li key={key} className="flex">
                   <span

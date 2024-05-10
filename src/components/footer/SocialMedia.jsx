@@ -24,7 +24,7 @@ const SocialMedia = () => {
                   : text == "instagram"
                   ? "w-[1.8rem] h-[1.8rem] max-tablet:w-[1.6] max-tablet:h-[1.6rem]"
                   : "w-[2rem] h-[2rem] max-tablet:w-[1.8] max-tablet:h-[1.8rem]"
-              } relative fill-gray-500 transition-fill ease-in-out duration-200 hover:fill-primary-thirdly`}
+              } relative fill-gray-500 transition-fill ease-in-out duration-200 hover:fill-thirdly`}
               viewBox={`0 0 ${
                 text == "facebook"
                   ? "512 512"

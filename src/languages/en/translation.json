@@ -53,8 +53,22 @@
     "import": "Import",
     "export": "Export"
   },
+  "contact": {
+    "title": "Contact",
+    "paragraph": "Please get in touch and our team will answer all your questions",
+    "form": {
+      "firstname": "Name",
+      "lastname": "Surname",
+      "email": "E-mail",
+      "phone": "Phone number",
+      "message": "Message",
+      "submit": "Send"
+    },
+    "touch": "Get In Touch",
+    "touch_paragraph": "You can contact us at any time"
+  },
   "footer": {
-    "address": "c. Yerevan, Սևանի 116/1",
+    "address": "Address: RA, 0018, Yerevan, Sevani Str. 116/1",
     "right": "© 2024, © Armfruit LLC |, All rights reserved",
     "design": "Designed by ",
     "me": "Արման Մանուկյան"

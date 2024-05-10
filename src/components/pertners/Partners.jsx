@@ -25,7 +25,7 @@ const Partners = () => {
 
   return (
     <div
-      className="relative py-[4rem] overflow-hidden max-btablet:pt-[4rem] max-btablet:pb-[3rem] max-small:pt-[3rem] max-small:pb-[2.5rem]"
+      className="relative !pt-[2rem] pb-[6rem] overflow-hidden max-btablet:pt-[4rem] max-btablet:pb-[4rem] "
       id="partners"
     >
       <div className="px-[5%]">

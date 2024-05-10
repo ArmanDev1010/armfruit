@@ -32,18 +32,18 @@ const Timeline = ({ setObserver }) => {
     setObserver(circle33.current);
   }, []);
 
-    // animation
-    const control = useAnimation();
-    const [ref, inView] = useInView();
-  
-    useEffect(() => {
-      if (inView) {
-        control.start("visible");
-      } else {
-        return;
-      }
-    }, [control, inView]);
-    //
+  // animation
+  const control = useAnimation();
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      control.start("visible");
+    } else {
+      return;
+    }
+  }, [control, inView]);
+  //
 
   return (
     <motion.div
@@ -59,7 +59,7 @@ const Timeline = ({ setObserver }) => {
         y: { duration: 0.5, delay: 0.4 },
         opacity: { duration: 0.5, delay: 0.4 },
       }}
-      className="flex flex-col items-center gap-0 my-8 mb-24 px-12 max-btablet:px-[3%] max-stablet:px-6 max-small:gap-0"
+      className="flex flex-col items-center gap-0 pt-[4rem] mb-16 px-12 max-btablet:px-[3%] max-btablet:mb-12 max-stablet:px-6 max-small:gap-0"
       id="about"
     >
       <Framer
@@ -69,16 +69,16 @@ const Timeline = ({ setObserver }) => {
         num="1"
       />
       <Framer
-        timeline={timeline2}
-        circle={circle2}
-        circle1={circle22}
-        num="2"
-      />
-      <Framer
         timeline={timeline3}
         circle={circle3}
         circle1={circle33}
         num="3"
+      />
+      <Framer
+        timeline={timeline2}
+        circle={circle2}
+        circle1={circle22}
+        num="2"
       />
     </motion.div>
   );

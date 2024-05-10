@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 
 import emailjs from "@emailjs/browser";
-import { IoIosMail } from "react-icons/io";
 import { useTranslation } from "react-i18next";
 
 const Forms = () => {
@@ -23,7 +22,7 @@ const Forms = () => {
   };
   return (
     <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-3">
-      <div className="flex gap-3">
+      <div className="flex gap-3 max-stablet:flex-col">
         <input
           type="text"
           name="user_firstname"
@@ -57,7 +56,7 @@ const Forms = () => {
       <input
         type="submit"
         value={t("contact.form.submit")}
-        className="bg-thirdly text-white text-xl py-3.5 rounded-[50vw] font-[500] cursor-pointer"
+        className="bg-thirdly text-white text-xl py-3.5 rounded-[50vw] font-[500] cursor-pointer transition duration-300 hover:bg-[#81B518]"
       />
     </form>
   );

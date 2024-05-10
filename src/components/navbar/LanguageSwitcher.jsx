@@ -11,7 +11,7 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <select value={i18n.language} onChange={handleLanguageChange} className="bg-transparent !border !border-white cursor-pointer font-[400]">
+    <select value={i18n.language} onChange={handleLanguageChange} className="bg-transparent !border !border-white cursor-pointer font-[400] max-small:!border-transparent">
       <option value="am" className="bg-white text-black">ՀԱՅ</option>
       <option value="en" className="bg-white text-black">ENG</option>
       <option value="ru" className="bg-white text-black">РУС</option>
