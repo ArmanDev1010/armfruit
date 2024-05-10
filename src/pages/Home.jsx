@@ -37,8 +37,8 @@ const Home = () => {
       <Menu />
       <AboutScroll />
       <Partners />
-      <ExportImport which="import" />
       <ExportImport which="export" />
+      <ExportImport which="import" />
       <Contact />
       <Footer />
     </div>

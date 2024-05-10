@@ -11,7 +11,29 @@ const SwiperExportImport = ({ reverse, which, home }) => {
 
   const first = ["1", "2", "3", "4", "5", "6", "7", "8"];
   const second = ["9", "10", "11", "12", "13", "14", "15", "16"];
-  const images = !reverse ? first : second;
+
+  const firstimport = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
+  const secondimport = [
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+  ];
+
+  const images =
+    !reverse && which == "import"
+      ? firstimport
+      : reverse && which == "import"
+      ? secondimport
+      : !reverse && which !== "import"
+      ? first
+      : second;
 
   return (
     <Swiper
@@ -44,7 +66,9 @@ const SwiperExportImport = ({ reverse, which, home }) => {
         <SwiperSlide key={key}>
           <div
             className="bg-cover bg-no-repeat bg-center w-full h-full rounded-[30px] border-[2px] border-primary"
-            style={{ backgroundImage: `url(/assets/carousel/${which}/${text}.jpg)` }}
+            style={{
+              backgroundImage: `url(/assets/carousel/${which}/${text}.jpg)`,
+            }}
           ></div>
         </SwiperSlide>
       ))}
