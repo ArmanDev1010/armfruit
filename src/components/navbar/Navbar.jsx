@@ -86,15 +86,15 @@ const Navbar = () => {
       </div>
       {scroll ? (
         <div
-          className="sticky bg-white desktop:h-[95px] !px-[5%] desktop:flex desktop:justify-between items-center 
-          max-desktop:py-[1.5rem] max-sdesktop:flex max-sdesktop:justify-between"
+          className="sticky bg-white desktop:h-[100px] !px-[5%] desktop:flex desktop:justify-between items-center 
+          max-desktop:py-[1.5rem] max-sdesktop:flex max-sdesktop:justify-between max-tablet:py-[1rem]"
           id="scroll"
         >
           <div className="flex items-center gap-8 max-desktop:justify-between">
             <img
-              src="/assets/scrollLogo.png"
+              src="/assets/logo.png"
               alt="logo"
-              className="h-full cursor-pointer w-[220px] h-full max-bmedium:w-[200px]"
+              className="h-full cursor-pointer w-[210px] h-full max-bmedium:w-[200px]"
             />
             <ul className="max-sdesktop:hidden h-full flex items-center gap-8 text-[18px] font-[500] max-bdesktop:text-[17px] max-desktop:gap-7">
               {[

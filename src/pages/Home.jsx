@@ -10,6 +10,7 @@ import Menu from "../components/navbar/Menu.jsx";
 import Footer from "../components/footer/Footer.jsx";
 import ExportImport from "../components/export&import/ExportImport.jsx";
 import Contact from "../components/contact/Contact.jsx";
+import Production from "../components/production/Production.jsx";
 
 const Home = () => {
   const { targetId, is_Click, setIs_Click } = useContext(MyContext);
@@ -39,6 +40,7 @@ const Home = () => {
       <Partners />
       <ExportImport which="export" />
       <ExportImport which="import" />
+      <Production />
       <Contact />
       <Footer />
     </div>

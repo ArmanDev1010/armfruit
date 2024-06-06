@@ -11,25 +11,31 @@ const Timeline = ({ setObserver }) => {
   const timeline1 = useRef(null);
   const timeline2 = useRef(null);
   const timeline3 = useRef(null);
+  const timeline4 = useRef(null);
 
   const circle1 = useRef(null);
   const circle2 = useRef(null);
   const circle3 = useRef(null);
+  const circle4 = useRef(null);
 
   const circle11 = useRef(null);
   const circle22 = useRef(null);
   const circle33 = useRef(null);
+  const circle44 = useRef(null);
 
   useEffect(() => {
     setObserver(timeline1.current);
     setObserver(timeline2.current);
     setObserver(timeline3.current);
+    setObserver(timeline4.current);
     setObserver(circle1.current);
     setObserver(circle2.current);
     setObserver(circle3.current);
+    setObserver(circle4.current);
     setObserver(circle11.current);
     setObserver(circle22.current);
     setObserver(circle33.current);
+    setObserver(circle44.current);
   }, []);
 
   // animation
@@ -73,6 +79,12 @@ const Timeline = ({ setObserver }) => {
         circle={circle3}
         circle1={circle33}
         num="3"
+      />
+      <Framer
+        timeline={timeline4}
+        circle={circle4}
+        circle1={circle44}
+        num="4"
       />
       <Framer
         timeline={timeline2}

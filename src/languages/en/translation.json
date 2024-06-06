@@ -38,6 +38,10 @@
       "title": "High Quality",
       "paragraph": "Armfruit offers high-quality fruits and vegetables, each of which undergoes strict quality selection to provide you with the best service. Trust the experience of our organization, making the right choice for the benefit of your business"
     },
+    "4": {
+      "title": "Our Goal",
+      "paragraph": "The goal of Armfruit is to make the exotic and unique fruits and vegetables growing in different corners of the world available to the population of Armenia, and to introduce Armenian immortal fruits and vegetables to different corners of the world"
+    },
     "coutries": {
       "ru": "Russian Federation",
       "by": "Republic of Belarus",
@@ -52,6 +56,10 @@
   "export_import": {
     "import": "Import",
     "export": "Export"
+  },
+  "production": {
+    "title": "Production",
+    "paragraph": "The food supplied by <span class='font-[600] text-primary'>Armfruit</span> is grown with love and care. Wanting to make our sunflowers available beyond the oceans, the company started dry production in 2023. Maintaining international standards of product safety and quality, the dried fruits produced by <span class='font-[600] text-primary'>Armfruit</span> have already become the favorite products of many consumers"
   },
   "contact": {
     "title": "Contact",
