@@ -27,31 +27,31 @@ const Forms = () => {
           type="text"
           name="user_firstname"
           placeholder={t("contact.form.firstname")}
-          className="flex-[0.5] border-[2px] border-[#f3f3f3] rounded-[50vw] px-4 py-3.5 text-[17px] text-[#c9c9c9] outline-0"
+          className="flex-[0.5] border-[2px] border-[#f3f3f3] rounded-[50vw] px-4 py-3.5 text-[17px] text-[#222] outline-0"
         />
         <input
           type="text"
           name="user_lastname"
           placeholder={t("contact.form.lastname")}
-          className="flex-[0.5] border-[2px] border-[#f3f3f3] rounded-[50vw] px-4 py-3.5 text-[17px] text-[#c9c9c9] outline-0"
+          className="flex-[0.5] border-[2px] border-[#f3f3f3] rounded-[50vw] px-4 py-3.5 text-[17px] text-[#222] outline-0"
         />
       </div>
       <input
         type="email"
         name="user_email"
         placeholder={t("contact.form.email")}
-        className="border-[2px] border-[#f3f3f3] rounded-[50vw] px-4 py-3.5 text-[17px] text-[#c9c9c9] outline-0"
+        className="border-[2px] border-[#f3f3f3] rounded-[50vw] px-4 py-3.5 text-[17px] text-[#222] outline-0"
       />
       <input
         type="text"
         name="user_phone"
         placeholder={t("contact.form.phone")}
-        className="border-[2px] border-[#f3f3f3] rounded-[50vw] px-4 py-3.5 text-[17px] text-[#c9c9c9] outline-0"
+        className="border-[2px] border-[#f3f3f3] rounded-[50vw] px-4 py-3.5 text-[17px] text-[#222] outline-0"
       />
       <textarea
         name="message"
         placeholder={t("contact.form.message")}
-        className="border-[2px] border-[#f3f3f3] rounded-[15px] px-4 py-3.5 text-[17px] text-[#c9c9c9] h-[150px] resize-none outline-0"
+        className="border-[2px] border-[#f3f3f3] rounded-[15px] px-4 py-3.5 text-[17px] text-[#222] h-[150px] resize-none outline-0"
       />
       <input
         type="submit"
